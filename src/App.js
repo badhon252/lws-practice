@@ -1,7 +1,10 @@
-import React from "react";
-import Clock from "./Components/Clock";
+import Todos from "./Components/Todos";
+
 function App() {
-  return <Clock />;
+  return (
+    <Todos/>
+
+  );
 }
 
 export default App;
