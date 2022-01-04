@@ -1,9 +1,13 @@
-import Todos from "./Components/Todos";
-
+import CompA from "./context/CompA";
+import ContextApi from "./context/ContextApi";
 function App() {
-  return (
-    <Todos/>
-
+  return ( 
+    <>
+    {/* // <Todos/> */}
+    <ContextApi />
+    <CompA/>
+    {/* // <Inputs/> */}
+    </>
   );
 }
 
